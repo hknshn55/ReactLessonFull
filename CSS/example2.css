@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;;
+}
+h1{
+    color: blue;
+    font-style:oblique;
+}
+h2{
+    color: blueviolet;
+}
+li{
+    color: blue;
+}
+img{
+    width: 500px;
+    height: 300px;
+}

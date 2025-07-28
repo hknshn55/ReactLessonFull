@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <h1>LikeMuShoes</h1>
+            <p>Gently used floor model sneakers and discontinued styles at our lowest prices of the year. Get'em before
+                they're gone!</p>
+        </header>
+        <section>
+            <form action="/user">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" placeholder="First Name" required minlength="2" maxlength="25">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" placeholder="Last Name" required minlength="2" maxlength="25">
+                <p>What's your favorite shoes?</p>
+                <input type="radio" name="brand" id="converse" value="converse" required>
+                <label for="converse">Converse</label>
+                <input type="radio" name="brand" id="adidas" value="adidas" required>
+                <label for="adidas">Adidas</label>
+                <input type="radio" name="brand" id="newBalance" value="newBalance" required>
+                <label for="newBalance">New Balance</label>
+                <button>Submit</button>
+            </form>
+
+        </section>
+        
+        <article>
+            <h2>Converse</h2>
+            <figure>
+                <img width="200" src="https://c1.neweggimages.com/productimage/nb640/A018D25070900HJ4265.jpg"
+                    alt="Converse ayakkabi gorseli">
+                <figcaption>
+                    Photo by Maksim Larin
+                </figcaption>
+            </figure>
+
+            <p>Suede fabric pointed toe stylish cut front low heel sharp on-trend toe point raised heel drop sides
+                unique sillhomette.</p>
+            <p><b>$30 USD</b></p>
+            <p>Free Shipping!</p>
+
+            <form action="/Converse">
+                <label for="size">Size:</label>
+                <select name="size" id="size">
+                    <option value="" selected></option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                </select>
+
+                <label for="color">Color:</label>
+                <select name="color" id="color">
+                    <option value="" selected></option>
+                    <option value="red">Kirmizi</option>
+                    <option value="blue">Mavi</option>
+                    <option value="yellow">Sari</option>
+                </select>
+
+                <label for="quantity">Quantity:</label>
+                <select name="quantity" id="quantity">
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <button>Add to Cart</button>
+            </form>
+
+        </article>
+        <article>
+            <h2>New Balance</h2>
+
+            <figure>
+                <img width="200" height="200"
+                    src="https://www.privatesneakers.com/cdn/shop/files/0_3e7023fd-a537-4450-94d5-62205180e77a_1080x.jpg?v=1728496559"
+                    alt="New Balance ayakkabi gorseli">
+                <figcaption>
+                    Photo by Felipe Laqium
+                </figcaption>
+            </figure>
+
+
+            <p>Suede fabric pointed toe stylish cut front low heel sharp on-trend toe point raised heel drop sides
+                unique sillhomette.</p>
+            <p><b>$45 USD</b></p>
+            <p>Just One Left!</p>
+
+            <form action="/NewBalance">
+                <label>Size:</label>
+                <select name="size" id="size">
+                    <option disabled value="" selected></option>
+                    <option disabled value="39">39</option>
+                    <option disabled value="40">40</option>
+                    <option disabled value="41">41</option>
+                    <option disabled value="42">42</option>
+                    <option value="43">43</option>
+                </select>
+
+                <label for="color">Color:</label>
+                <select name="color" id="color">
+                    <option value="" selected></option>
+                    <option disabled value="red">Kirmizi</option>
+                    <option disabled value="blue">Mavi</option>
+                    <option value="yellow">Sari</option>
+                </select>
+
+                <label for="quantity">Quantity:</label>
+                <select name="quantity" id="quantity">
+                    <option value=""></option>
+                    <option value="1" disabled>1</option>
+                    <option value="2" disabled>2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <button>Add to Cart</button>
+            </form>
+
+        </article>
+        <footer>
+            <br>
+            <a href="#" target="_blank" rel="noopener noreferrer">Home</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">About</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Contact</a>
+        </footer>
+    </main>
+
+</body>
+
+</html>

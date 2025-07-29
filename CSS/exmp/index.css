@@ -1,0 +1,9 @@
+h1{
+    text-transform:uppercase; /*Metnin karakterlerini buyuk harfe cevirir*/
+    font-family: monospace; /*Yazi ailesi*/
+    text-align: center; /*Konum degistirme*/
+    font-weight: 100; /*Yazi boyutu(px kabul etmez sayilarla deger verilir)*/
+    font-size: 40px; /*Yazi boyutu*/
+    letter-spacing: 20px; /*hafrler arasi bosluk atar*/ 
+    text-decoration: underline wavy plum; /*Metin alt dalgali cizgi pembe renkte ve dalgali sekilde */ 
+}

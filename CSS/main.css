@@ -1,7 +1,13 @@
 body{
-    background-color: aqua;
+    background-color: #c5e;
 }
 li{
     font-size: xx-large;
     color:burlywood;
+}
+h2{
+    color: rgba(58, 217, 9, 0.412);
+}
+h1{
+   color: #C45C4F;
 }

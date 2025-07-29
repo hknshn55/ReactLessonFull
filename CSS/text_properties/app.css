@@ -1,0 +1,32 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+} */
+
+h1{
+    text-align: center;
+    /* width: 50%; */
+    font-weight: 400;
+    text-decoration: line-through; /*Ortadan cizer*/
+    text-decoration: underline; /*Alt tarafi cizer*/
+    text-decoration: #23af13 underline; /*Alt tarafi cizer renk verir*/
+    text-decoration: #23af13 wavy underline; /*Alt tarafi cizer renk verir alt cizginin seklini belirtir*/
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    text-align: right; /*kapladigi alan icerisinde x yonunde konum yerlestirme yapar*/
+    font-weight: normal; /*Text boyutunu ayarlar*/
+    line-height: 1.5; /*Satir yuksekligi*/
+    letter-spacing: 10px; /*karakterler arasi bosluk verir*/
+    font-size: 20px; /*Metin boyutunu ayarlar*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Yazi tipi ailesini degistirir. Destegi olmadigi surece tek tek verilen aileleri dener*/
+    
+}
+
+
+

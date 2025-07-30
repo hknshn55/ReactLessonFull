@@ -19,3 +19,22 @@ span{
     background-color: #e8f7ee;
     font-size: 12px;
 }
+
+a{
+    color: red;
+}
+
+/*Spanlarin altinda bulunan her a yi etkiler*/
+span a{
+    color: #b4869f;
+}
+
+/* section span a {
+} */
+
+.post a{
+    color: #b4869f;
+}
+footer a {
+    color: magenta;
+}

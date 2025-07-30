@@ -1,0 +1,102 @@
+/* HTML elementlerini aşağıdaki talimatlara göre şekillendirin.
+BUNU YAPMAK İÇİN MEVCUT HTML'Yİ DEĞİŞTİRMEYİN. SADECE CSS BÖLÜMÜNE YAZIN! */
+
+h2{
+color: purple;
+}
+
+/* <body> elementine #bdc3c7 arka plan rengini verin*/
+body{
+    background-color: #bdc3c7;
+}
+
+/* <h1> elementini #9b59b6 yapın*/
+h1{
+    color: #9b59b6;
+}
+
+/* Tüm <h2> elmentlerini turuncu yapın*/
+h2{
+    color: orange;
+}
+
+/* Tüm <li> elementlerini mavi yapın (hex blue seçin)*/
+li{
+    background-color: blue;
+}
+
+/*Her paragrafın arka planını sarı olarak değiştirelim*/
+p{
+    background-color: yellow;
+}
+
+/*Tüm input'ların 3px kırmızı kenarlığı olsun*/
+input{
+    border:3px;
+    border-color: red;
+}
+
+/* 'hello' class'ına sahip her şeye beyaz bir arka plan verin*/
+.hello{
+    background-color: white;
+}
+
+/* 'special' id'sine sahip elemente 2 piksellik solid mavi bir kenarlık verin (kendi rgb mavinizi seçin)*/
+#special{
+    border: 2px solid rgb(35, 185, 255);
+}
+
+/*div'lerin içine yerleştirilmiş tüm <p>'leri  25px font(font-size: 25px) yapın*/
+div p{
+    font-size: 25px;
+}
+
+/*Yalnızca 'text' türündeki input'ların arka planı gri olsun*/
+input[type="text"] {
+    background-color: gray;
+}
+
+/* 3. <div> içindeki her iki <p>'ye de pembe bir arka plan verin*/
+div:nth-of-type(3) > p{
+  background-color: pink;
+}
+
+/* 3. <div> içindeki 2. <p>'ye 5px beyaz kenarlık verin*/
+div:nth-of-type(3) > p:nth-of-type(2){
+    border:5px solid rgb(255, 255, 255);
+}
+
+/* 3. <div> elementinin <em> elementini beyaz ve 20px font(font-size:20px) yapın*/
+div:nth-of-type(3) em{
+    color: white;
+    font-size: 20px;
+}
+
+
+/*BONUS */
+
+/*Tüm "checked" onay kutularının sol kenar boşluğunun 50 piksel olmasını sağlayın(margin-left: 50px)*/
+input[checked]{
+    margin-left:50px;
+}
+
+
+/* HTML'yi değiştirmeden <label> elementini BÜYÜK HARF yapın */
+label{
+    text-transform: uppercase;
+}
+
+/*'special' id'sine sahip elementin ilk harfini yeşil yapın ve 100px yazı tipi boyutu(font-size: 100) olsun*/
+#special:first-letter {
+   color: green;
+   font-size: 100px;  
+}
+
+/*<h1> elementinin üzerine gelindiğinde renginin maviye dönüşmesini sağlayın */
+h1:hover{
+    color: white;
+}
+/*Ziyaret edilen <a> elementini gri yapın */
+a:visited{
+    color: grey;
+}

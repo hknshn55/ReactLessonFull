@@ -35,6 +35,63 @@ span a{
 .post a{
     color: #b4869f;
 }
+
 footer a {
     color: magenta;
 }
+
+/*inputtan sonraki ilk butonu alir*/
+input + button{
+    border-color: rgb(12, 61, 255);
+}
+
+/*h2 bittikten sonra gelen butonlar*/
+h2 + button{
+    font-size: xx-large;
+    background-color: magenta;
+}
+
+/*footer in hemen altindaki 1. seviyedeki a taglerini etkiler*/
+footer > a{
+    font-size: 20px;
+    color: greenyellow;
+}
+
+/*Section bittikten sonra gelen a lari etkiler*/
+section ~ a{
+   color: aqua;
+}
+
+input[type="text"]{
+    background-color: rgb(109, 255, 118);
+}
+
+/*Class i post olan section lar*/
+/* section[class="post"]{
+    font-size:20px;
+    background-color: purple;
+} */
+
+/*Class i post olan section lar*/
+section.post{
+    font-size:20px;
+    background-color: purple;
+    letter-spacing: 5px;
+}
+
+/*Class i post olan section lar*/
+/* section.post */
+
+/*Class i post olan tum tagler*/
+/*.post*/
+
+/*Href icerisinde google gecen linleri etkiler*/
+a[href*="google"]{
+    color: steelblue;
+}
+
+/*Buyuk kucuk harf duyarliligini ortadan kaldirarak yakalar*/
+a[href*="google" i]{
+    color:rgb(255, 206, 71);
+}
+

@@ -130,6 +130,7 @@ h2::first-letter{
   font-size: xx-large;
 }
 
+/*Secim yapilan alanlara etki eder*/
 ::selection{
     background-color:#1fff4f;
 }

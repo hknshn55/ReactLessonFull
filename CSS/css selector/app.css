@@ -95,3 +95,41 @@ a[href*="google" i]{
     color:rgb(255, 206, 71);
 }
 
+/*Mouse uzerine geldiginde calisir*/
+a:hover{
+  text-decoration: overline;
+}
+
+/*Uzerine tiklandiginda yani aktif oldugu surece isler*/
+.post button:active{
+    background-color:green;
+    box-shadow: #b8b42d;
+}
+
+.post{
+    background-color: #E0D68A;
+}
+
+/*ilgili siniflar arasindan 3. sune degisiklik uygular*/
+.post:nth-of-type(3){
+    border-color: #86BBD8;
+}
+
+/*ilgili siniflar(post) arasindan 3 ve katlarina etki eder. */
+.post:nth-of-type(3n){
+    border-color: #86BBD8;
+}
+
+.post:nth-of-type(2n + 1){
+    border-color: #86BBD8;
+}
+
+
+/* :: kullanmak daha iyidir. Ilk harfin boyutuyla oynadik */
+h2::first-letter{
+  font-size: xx-large;
+}
+
+::selection{
+    background-color:#1fff4f;
+}

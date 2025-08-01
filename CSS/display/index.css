@@ -1,0 +1,15 @@
+span{
+    width: 100px;
+    background-color: blue;
+    display: block;
+}
+
+p{
+    background-color: red;
+    width: 100px;
+    display: inline-block;
+}
+
+.second_p{
+    display: none;
+}

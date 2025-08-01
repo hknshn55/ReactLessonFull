@@ -15,6 +15,10 @@ span{
     color:#c9d6ea;
 }
 
+h1,h2{
+    color: #f1faae;
+}
+
 .tag{
     background-color: #e8f7ee;
     font-size: 12px;
@@ -124,6 +128,9 @@ a:hover{
     border-color: #86BBD8;
 }
 
+h1,h2{
+    color: red;
+}
 
 /* :: kullanmak daha iyidir. Ilk harfin boyutuyla oynadik */
 h2::first-letter{
@@ -134,3 +141,15 @@ h2::first-letter{
 ::selection{
     background-color:#1fff4f;
 }
+
+#signup{
+    color: #f1faae;
+}
+
+/*!important tüm cssi ezer ve ilgili ozelligi kabul eder*/
+button{
+    background-color: green !important;
+}
+
+
+

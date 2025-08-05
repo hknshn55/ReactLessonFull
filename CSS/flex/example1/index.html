@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .example{
+            display: flex;
+            flex-direction: column;
+        }
+        .example div{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+        .a{
+            display: flex;
+            order: 1;
+            align-self: flex-end;
+        }
+        .b{
+            display: flex;
+            order: -1;
+        }
+        .c{
+            display: flex;
+            order: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- // 3 div'imiz var. İlk div'i sağ tarafta ve diğer 2 div'i sol tarafta hizalamanız gerekir. 
+
+// İstenilen Çözüm: İkinciÜçüncüBirinci -->
+    <div class="example">
+    <div class="a">Birinci</div>
+    <div class="b">İkinci</div>
+    <div class="c">Üçüncü</div>
+</div>
+</body>
+</html>

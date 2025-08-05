@@ -1,0 +1,57 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    color: #FF715B;
+    font-weight: 600;
+    text-align: center;
+  font-size: 3rem;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    border-radius: 50%;
+    background: linear-gradient(176deg, rgba(255, 246, 207, 1) 35%, rgba(254, 206, 122, 1) 100%);
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #FF715B;
+}
+
+
+/*
+CHALLENGE 3: FLEXBOX
+
+- CSS border-box modelini kullanmak için bu sayfayı ayarlayalım.
+
+- Sayfanın maksimum genişliği 1200 piksel olarak ayarlayalım.
+
+- Flexbox'ın ebeveynler ve çocuklar, esnek konteynırlar ve esnek elementlerle ilgili olduğunu unutmayın. Bu örnekteki konteyner ve elementler nerede? Bu sorunun cevabı Flexbox stilinin nereye uygulanacağını belirleyecektir.
+
+- Robotları yanyana sıralara sarmak için bu düzeni kuralım. Satır başına düşen robot sayısı ekran boyutuna göre değişecektir. Bu noktada satır başına kaç robot olduğunu kontrol etmeye çalışmayalım. 
+*/
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    background-color: rgb(255, 255, 255);
+    justify-self: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+

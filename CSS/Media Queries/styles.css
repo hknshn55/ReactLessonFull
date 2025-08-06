@@ -6,3 +6,67 @@ min-width: --- starting from
 max-width: --- up to
 Mobile First
 */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    display: none;
+}
+/*Smart Phones*/
+/*500px ve altina dustugunde burasi devreye girer*/
+/*@media only screen and (max-width:500px) { bunu yazmasak all yani hepsi tum ekranlar icin gecerli sayar*/
+@media only screen and (max-width:500px) {
+    body{
+        background-color: red;
+    }
+    #smartphone h1{
+        display: block;
+    }
+}
+/*Tablet*/
+@media (min-width:501px) and (max-width:768px){
+    body{
+        background-color: blue;
+    }
+    #table h1{
+        display: block;
+    }
+}
+
+/*Normal*/
+@media (min-width:769px) and (max-width:1200px){
+   body{
+    background-color: rgb(113, 250, 40);
+   }
+   #normal h1{
+     display: block;
+   }
+}
+
+/*Genis Ekran*/
+@media(min-width:1201px){
+   body{
+    background-color: black;
+   }
+   #widescreen h1{
+    display: block;
+   }
+}
+
+/*Landspace*/
+@media (max-height:500px) {
+    body{
+        background-color: orange;
+    }
+    #landspace h1{
+        display: block;
+    }
+    #tablet h1{
+      display: none;
+    }
+}

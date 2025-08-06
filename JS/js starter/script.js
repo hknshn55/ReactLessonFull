@@ -25,5 +25,5 @@ console.log(message);
 //  let person = "Hakan"
 //  let Person = "Hakan" kucuk buyuk harf duyarliligi vardir.
 
-
+ // Degisken isimlendirmesi anlamli olmalidir.
 

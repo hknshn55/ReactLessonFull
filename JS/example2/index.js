@@ -33,3 +33,5 @@ const { use } = require("react")
 // null : developerin biraktigi bilincli bosluk
 
 // ES2020 --->BigInt : 2 uzeri 53 -1 degerindedir
+
+console.log(typeof true); // veri tipini gosterir

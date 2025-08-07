@@ -1,7 +1,5 @@
 // === Veri Tipleri ve Değişken Tanımlama Üzerine Alıştırma ===
 
-const { use } = require("react");
-
 // 1. "isEven" adında bir değişken oluşturun ve içine boolean bir değer yazın.
 //    Yaşınızın 26 olduğunu varsayalım. Çift olduğu için bu değişkene true yazabilirsiniz.
 //    (Hesaplama yapmanıza gerek yok, doğrudan true yazmanız yeterli)

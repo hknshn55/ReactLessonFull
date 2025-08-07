@@ -25,4 +25,11 @@ const { use } = require("react")
 // let userName2 = "Hakan" 
 // let userName3 = `Deger gomulebilir ${userName}`
 
-// Boolean
+// Boolean (true/false)
+// let fullAge = true
+// let ageChecked = false
+
+// undefined--> Henuz tanimlanmamis
+// null : developerin biraktigi bilincli bosluk
+
+// ES2020 --->BigInt : 2 uzeri 53 -1 degerindedir

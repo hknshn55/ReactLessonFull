@@ -26,3 +26,6 @@ console.log(typeof lastName);
 
 //    (Türünü görmek için typeof ifadesini kullanabilirsiniz)
 //    console.log(typeof isEven)
+
+
+// < > >= <= || && ==     + - * / %     += /= *= -= 

@@ -4,4 +4,6 @@
 
 // kosullu ifadeler if else switch case
 
-// 
+//
+
+console.log(null == undefined); // true

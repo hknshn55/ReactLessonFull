@@ -5,3 +5,11 @@
 ul {
   margin-top: 15px; 
 }
+
+.btn-primary{
+    background-color: rgb(79, 183, 239);
+   color: azure;
+   width: 150px;
+   height: 50px;
+   border-radius: 5px;
+}

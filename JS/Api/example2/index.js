@@ -7,8 +7,10 @@ button.addEventListener('click', (e) => {
   e.preventDefault();
 
   fetch('https://jsonplaceholder.typicode.com/users')
-    .then(data => {
+  .then(response => response.json())
+  .then(data => {
       const names = data.map(user => user.name);
+      console.log(names);
       names.forEach(name => {
         const li = document.createElement('li');
         li.textContent = name;

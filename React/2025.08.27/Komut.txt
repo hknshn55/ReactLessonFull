@@ -1,0 +1,7 @@
+node -v (node.js versiyon)
+npm -v (paket yöneticisi versiyonu)
+cd(current directory) 
+npx create-next-app (next.js fremawork u indiriyoruz)
+
+
+npm install veya npm i (gerekli paketleri modülleri yukler)

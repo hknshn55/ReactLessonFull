@@ -49,3 +49,5 @@ function name() {
 name() // undefined
 var abc = "asds"
 name() // asds
+
+
